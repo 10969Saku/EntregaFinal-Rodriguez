@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZonaGaming - Proyecto Final</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>ZONA GAMING</h1>
+
+    <!-- Formulario -->
+    <section id="usuario">
+        <h2>Bienvenido</h2>
+        <div id="saludo"></div>
+        <form id="formUsuario">
+            <label>Nombre:
+                <input type="text" id="nombre" required>
+            </label>
+            <label>Teléfono:
+                <input type="text" id="telefono" required>
+            </label>
+            <label>Lugar de envío:
+                <input type="text" id="lugar" required>
+            </label>
+            <button type="submit">Ingresar</button>
+        </form>
+    </section>
+
+    <!-- Productos -->
+    <section>
+        <h2>Productos</h2>
+        <div id="listaProductos" class="productos"></div>
+    </section>
+
+    <!-- Carrito -->
+    <section>
+        <h2>Carrito</h2>
+        <ul id="carritoLista"></ul>
+        <div id="resumenCompra"></div>
+        <div id="mensajeCarrito"></div>
+        <div class="botonesCarrito">
+            <button id="finalizarBtn">Finalizar compra</button>
+            <button id="limpiarBtn">Limpiar todo</button>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
