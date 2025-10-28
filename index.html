@@ -1,50 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZonaGaming - Proyecto Final</title>
-    <link rel="stylesheet" href="estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZonaGaming - Proyecto Final</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
-    <h1>ZONA GAMING</h1>
+  <h1>ZONA GAMING</h1>
 
-    <!-- Formulario -->
-    <section id="usuario">
-        <h2>Bienvenido</h2>
-        <div id="saludo"></div>
-        <form id="formUsuario">
-            <label>Nombre:
-                <input type="text" id="nombre" required>
-            </label>
-            <label>Teléfono:
-                <input type="text" id="telefono" required>
-            </label>
-            <label>Lugar de envío:
-                <input type="text" id="lugar" required>
-            </label>
-            <button type="submit">Ingresar</button>
-        </form>
-    </section>
+  <!-- Formulario de ingreso a la página-->
+  <section id="usuario">
+    <h2>Bienvenido</h2>
+    <div id="saludo"></div>
+    <form id="formUsuario">
+      <label>Nombre:
+        <input type="text" id="nombre" required>
+      </label>
+      <label>Teléfono:
+        <input type="text" id="telefono" required>
+      </label>
+      <label>Lugar de envío:
+        <input type="text" id="lugar" required>
+      </label>
+      <button type="submit">Ingresar</button>
+    </form>
+  </section>
 
-    <!-- Productos -->
-    <section>
-        <h2>Productos</h2>
-        <div id="listaProductos" class="productos"></div>
-    </section>
+  <!-- Filtro de los productos -->
+  <section>
+    <h2>Productos</h2>
+    <input type="text" id="buscador" placeholder="Buscar componente...">
+    <select id="filtroCategoria">
+      <option value="todas">Todas las categorías</option>
+      <option value="GPU">GPU</option>
+      <option value="CPU">CPU</option>
+      <option value="RAM">RAM</option>
+      <option value="Placa Madre">Placa Madre</option>
+      <option value="SSD">SSD</option>
+      <option value="Fuente">Fuente</option>
+      <option value="Refrigeración">Refrigeración</option>
+      <option value="Gabinete">Gabinete</option>
+      <option value="Periféricos">Periféricos</option>
+    </select>
 
-    <!-- Carrito -->
-    <section>
-        <h2>Carrito</h2>
-        <ul id="carritoLista"></ul>
-        <div id="resumenCompra"></div>
-        <div id="mensajeCarrito"></div>
-        <div class="botonesCarrito">
-            <button id="finalizarBtn">Finalizar compra</button>
-            <button id="limpiarBtn">Limpiar todo</button>
-        </div>
-    </section>
+    <div id="listaProductos" class="productos"></div>
+  </section>
 
-    <script src="main.js"></script>
+  <!-- Carrito expansible -->
+  <div id="carritoFlotante">
+    <div id="carritoHeader">
+      <h2>Carrito</h2>
+      <button id="toggleCarrito">-</button>
+    </div>
+    <div id="carritoBody">
+      <ul id="carritoLista"></ul>
+      <div id="resumenCompra"></div>
+      <div class="botonesCarrito">
+        <button id="finalizarBtn">Finalizar compra</button>
+        <button id="limpiarBtn">Limpiar todo</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
 </body>
 </html>

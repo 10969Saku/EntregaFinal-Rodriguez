@@ -1,0 +1,163 @@
+
+[
+  {
+    "id": 1,
+    "nombre": "Tarjeta Gráfica RTX 4060 Ti",
+    "precio": 500,
+    "descripcion": "Alto rendimiento para gaming y diseño.",
+    "categoria": "GPU",
+    "imagen": "componentes/tarjeta-grafica-rtx4060ti.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Procesador Intel Core i5-12400F",
+    "precio": 300,
+    "descripcion": "6 núcleos, excelente rendimiento para tareas exigentes.",
+    "categoria": "CPU",
+    "imagen": "componentes/procesador-i5.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Memoria RAM Corsair 16GB DDR4",
+    "precio": 90,
+    "descripcion": "Iluminación RGB personalizable.",
+    "categoria": "RAM",
+    "imagen": "componentes/memoria-ram.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Placa Madre ASUS TUF B660",
+    "precio": 220,
+    "descripcion": "Compatible con Intel 12va generación, múltiples puertos.",
+    "categoria": "Placa Madre",
+    "imagen": "componentes/placa-madre.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "SSD NVMe 1TB Samsung",
+    "precio": 150,
+    "descripcion": "Almacenamiento rápido y confiable.",
+    "categoria": "SSD",
+    "imagen": "componentes/ssd.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Fuente de Poder 650W Corsair",
+    "precio": 100,
+    "descripcion": "Certificación 80 Plus Bronze, eficiente y segura.",
+    "categoria": "Fuente",
+    "imagen": "componentes/fuente.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Refrigeración Líquida NZXT Kraken",
+    "precio": 130,
+    "descripcion": "Mantén tu CPU a baja temperatura con estilo RGB.",
+    "categoria": "Refrigeración",
+    "imagen": "componentes/refrigeracion.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Gabinete NZXT H510",
+    "precio": 120,
+    "descripcion": "Compacto, elegante, con flujo de aire optimizado.",
+    "categoria": "Gabinete",
+    "imagen": "componentes/gabinete.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Monitor 27\" 144Hz ASUS",
+    "precio": 350,
+    "descripcion": "Pantalla IPS, ideal para gaming.",
+    "categoria": "Periféricos",
+    "imagen": "componentes/monitor.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Teclado Mecánico RGB Corsair",
+    "precio": 110,
+    "descripcion": "Switches Cherry MX, iluminación RGB.",
+    "categoria": "Periféricos",
+    "imagen": "componentes/teclado.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Mouse Gaming Logitech G502",
+    "precio": 70,
+    "descripcion": "Alta precisión, botones programables y sensor HERO.",
+    "categoria": "Periféricos",
+    "imagen": "componentes/mouse.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Auriculares HyperX Cloud II",
+    "precio": 90,
+    "descripcion": "Sonido envolvente 7.1 y micrófono profesional.",
+    "categoria": "Periféricos",
+    "imagen": "componentes/auriculares.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "Disco Duro 2TB Seagate Barracuda",
+    "precio": 85,
+    "descripcion": "Amplio almacenamiento para juegos y archivos.",
+    "categoria": "Almacenamiento",
+    "imagen": "componentes/disco-duro.jpg"
+  },
+  {
+    "id": 14,
+    "nombre": "Mousepad RGB Razer Goliathus",
+    "precio": 40,
+    "descripcion": "Base antideslizante y retroiluminación RGB.",
+    "categoria": "Periféricos",
+    "imagen": "componentes/mousepad.jpg"
+  },
+  {
+    "id": 15,
+    "nombre": "Silla Gamer Redragon Metis",
+    "precio": 250,
+    "descripcion": "Ergonómica, con soporte lumbar ajustable.",
+    "categoria": "Periféricos",
+    "imagen": "componentes/silla-gamer.jpg"
+  },
+  {
+    "id": 16,
+    "nombre": "Control Xbox Series X",
+    "precio": 80,
+    "descripcion": "Compatible con PC, conectividad Bluetooth.",
+    "categoria": "Periféricos",
+    "imagen": "componentes/control-xbox.jpg"
+  },
+  {
+    "id": 17,
+    "nombre": "Webcam Logitech C920",
+    "precio": 100,
+    "descripcion": "Full HD 1080p, micrófono estéreo incorporado.",
+    "categoria": "Periféricos",
+    "imagen": "componentes/webcam.jpg"
+  },
+  {
+    "id": 18,
+    "nombre": "Router TP-Link AX1800",
+    "precio": 95,
+    "descripcion": "WiFi 6 de alta velocidad con gran cobertura.",
+    "categoria": "Periféricos",
+    "imagen": "componentes/router.jpg"
+  },
+  {
+    "id": 19,
+    "nombre": "Kit Ventiladores RGB Cooler Master",
+    "precio": 60,
+    "descripcion": "Tres ventiladores de 120mm con control remoto.",
+    "categoria": "Refrigeración",
+    "imagen": "componentes/ventiladores.jpg"
+  },
+  {
+    "id": 20,
+    "nombre": "Tarjeta de Sonido externa ASUS Xonar",
+    "precio": 75,
+    "descripcion": "Audio de alta fidelidad con soporte para auriculares pro.",
+    "categoria": "Periféricos",
+    "imagen": "componentes/tarjeta-sonido.jpg"
+  }
+]
